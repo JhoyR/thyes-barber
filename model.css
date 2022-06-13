@@ -1,0 +1,142 @@
+body {
+    background-color: #3d3d3d;
+    background-image: url('/imagens/foto-pessoal.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title {
+    font-family: 'Redressed', cursive;
+    color: rgb(233, 55, 55);
+    background-color: rgba(65, 65, 65, 0.8);
+    border: 2px solid rgb(255, 255, 255);
+    margin: 20px auto auto 40px; 
+    box-shadow: 10px 5px 5px rgb(37, 37, 37);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    line-height: 10px;  
+}
+ul{
+    margin-top: -90px;
+    padding-right: 10px;
+}
+li{
+    font-weight: 200;
+    display: inline-block;
+    margin: 10px;
+}
+span {
+    color: rgba(0, 0, 0);
+    background-color: rgba(233, 55, 55, 0.5);
+}
+span:hover {
+    color: #8b0000;
+    background-color:rgba(255, 255, 255, 0.6) ;
+    transition: 0.3s all;
+}
+a{
+    color: rgb(233, 55, 55);
+    background-color: rgba(65, 65, 65, 0.8);
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+
+}
+a:hover {
+    color: #ffffff;
+    background-color:rgba(131, 42, 42, 0.6) ;
+    transition: 0.3s all;
+}
+h1 {
+    font-weight: 400;
+    padding-top: 10px;
+    margin-top: 10px;    
+}
+h2{
+    color: rgb(0, 0, 0);
+    max-width: 400px;
+    border: 2px solid rgb(131, 42, 42);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    align-self: auto;
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 450;
+    margin: 400px auto 140px auto;
+}
+p{
+    padding: 15px;
+    margin:auto;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgba(65, 65, 65, 0.8);
+    border-radius: 15px;
+}
+form {
+    margin: 5px auto auto 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(131, 42, 42);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover {
+    background-color: rgba(65, 65, 65, 0.8);
+    cursor: pointer;
+}
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+article {
+    font-size: large;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 400px auto 200px auto; 
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6)
+}
+article h1 {
+    font-family: 'Redressed', cursive;
+    color: black;
+    font-weight: 600;
+}
+table#precos {
+    margin: 0 auto;       
+}
+caption {
+    margin-bottom: 20px;
+    font-family: 'Redressed', cursive;
+    color: black;
+}
