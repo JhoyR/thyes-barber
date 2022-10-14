@@ -1,6 +1,6 @@
 body {
     background-color: #3d3d3d;
-    background-image: url('/Thyes-barber/imagens/foto-pessoal.jpeg');
+    background-image: url('imagens/foto-pessoal.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
