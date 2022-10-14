@@ -11,7 +11,6 @@ body {
     margin: 0 auto;
 }
 header {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,9 +42,9 @@ li{
     background-color: rgb(233, 55, 55);
     padding: 8px;
 }
-span:hover {
+#agenda:hover {
     color: #8b0000;
-    background-color:rgba(255, 255, 255, 0.6) ;
+    background:rgba(255, 255, 255, 0.6) ;
     transition: 0.3s all;
 }
 a{
@@ -79,13 +78,13 @@ main {
     display: flex;
     flex-direction: row;
 }
-h2 {
+main h2 {
     align-self: auto;
     font-family: 'Redressed', cursive;
     font-size: 50px;
     line-height: 55px;
     font-weight: 450;
-    margin: 400px auto 140px auto;
+    margin: 200px auto 140px auto;
 }
 p{
     padding: 15px;
@@ -126,11 +125,11 @@ article {
     border: 1px solid rgb(255, 255, 255);
     margin: 400px auto 200px auto; 
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.6)
+    background-color:rgba(53, 53, 53, .9) ;
 }
 article h1 {
     font-family: 'Redressed', cursive;
-    color: black;
+    color: white;
     font-weight: 600;
 }
 table#precos {
@@ -139,5 +138,20 @@ table#precos {
 caption {
     margin-bottom: 20px;
     font-family: 'Redressed', cursive;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+#parceiros{
+    text-align: center;
+}
+#trabalho{
+    box-sizing: border-box;
+    border: #3d3d3d 10px inset;
+    width: 40%;
+}
+
+footer a{
+
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
 }

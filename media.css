@@ -1,5 +1,4 @@
-@media  screen and (max-width: 720px) {
-    
+@media  screen and (max-width: 740px) {
     div#title {
         margin: 0 auto;
         flex-direction: column;
@@ -7,16 +6,35 @@
     header{
         flex-direction: column;
     }
-
+    header ul{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    header li{
+        margin-top: 5px;
+    }
+    #agenda{
+        margin-top: 10px;
+        border-radius: 30px;
+        padding: 20px;
+    }
     main {
         flex-direction: column;
+        align-items: center;
+    }
+    main h2{
+        margin: 50px 10%;
+        
     }
 
     h2 {
         font-size: 38px;
         flex-direction: column;
     }
-    
+    article{
+        margin: 100px auto;
+    }
     table {
         align-items: center;
     }
