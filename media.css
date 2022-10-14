@@ -1,4 +1,4 @@
-@media  screen and (max-width: 740px) {
+@media  screen and (max-width: 760px) {
     div#title {
         margin: 0 auto;
         flex-direction: column;
@@ -21,13 +21,7 @@
     }
     main {
         flex-direction: column;
-        align-items: center;
     }
-    main h2{
-        margin: 50px 10%;
-        
-    }
-
     h2 {
         font-size: 38px;
         flex-direction: column;
