@@ -10,7 +10,7 @@
     header ul{
         display: flex;
         flex-direction: column;
-        padding: 3px;
+        padding: 4px;
         margin-top: 20px;
     }
     header li{
