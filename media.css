@@ -52,10 +52,8 @@
         margin-top: auto;
         text-align: center;
         flex-direction: column;
-
     }
     form [type="submit"] {
         align-self: center;
     }
-
 }
