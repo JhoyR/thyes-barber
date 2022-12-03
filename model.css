@@ -53,7 +53,6 @@ a{
     border: 2px solid rgb(255, 255, 255);
     text-align: center;
     border-radius: 5px;
-
 }
 a:hover {
     color: #ffffff;
@@ -140,7 +139,7 @@ caption {
     font-family: 'Redressed', cursive;
     color: rgb(255, 255, 255);
 }
-#person{
+#person {
     text-align: center;
 }
 #trabalho{
@@ -150,7 +149,6 @@ caption {
 }
 
 footer a{
-
     padding: 2px;
     text-decoration: none;
     text-align: center;
